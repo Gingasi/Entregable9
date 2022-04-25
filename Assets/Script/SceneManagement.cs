@@ -22,9 +22,9 @@ public class SceneManagement : MonoBehaviour
     }
 
     public void QuitGame() //Abandona el juego. 
-    {
-        Debug.Log("QuitGame");
+    { 
         Application.Quit();
+        Debug.Log("QuitGame");
     }
 
 }
